@@ -1,0 +1,34 @@
+@import '../../../assets/variables/base.scss';
+.full-card{
+
+    height:250px;
+    width: 250px;
+    border-radius: 50%;
+    border-color: transparent;
+    margin:0 10px;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+        .card-content{
+            text-align: center;
+             position: absolute;
+             bottom: 50px;
+             text-align: center;
+             width:100%;
+            h5{
+                font-weight: bold;
+                
+            }
+            span{
+                display: block;
+            }
+        }
+        
+    
+    &:hover{
+        box-shadow: 0px 10px 30px rgba(0,0,0,0.1);       
+    }
+    
+
+ 
+}
